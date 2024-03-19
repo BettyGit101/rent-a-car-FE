@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkrent_a_car=self.webpackChunkrent_a_car||[]).push([[830],{9830:(a,e,s)=>{s.r(e),s.d(e,{default:()=>r});var c=s(5043);const n="Notification_notification__SHbwI";var t=s(579);const i=a=>(0,t.jsx)("div",{className:n,children:(0,t.jsx)("p",{children:a.message})}),r=(0,c.memo)(i)}}]);
+//# sourceMappingURL=830.f4027328.chunk.js.map
