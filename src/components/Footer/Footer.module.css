@@ -1,0 +1,39 @@
+.footer {
+    height: 8vh;
+    min-height: 6rem;
+    gap:1rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-blue-light-3);
+    background-color: var(--color-blue-dark-2);
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.social_media {
+    gap: 4rem;
+    display: flex;
+}
+
+.social_media span {
+    transition: 0.5s;
+}
+
+.social_media span:hover {
+    transform: translateY(-10px);
+}
+
+@media (height < 600px) {
+    .footer {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .social_media span {
+        margin-top:0.5rem;
+    }
+}

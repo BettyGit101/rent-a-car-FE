@@ -1,0 +1,9 @@
+.home__spinner {
+  position:absolute;
+  top: 50%;
+  left:50%;
+}
+
+.home__content {
+  margin-bottom: 13rem;
+}

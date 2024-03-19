@@ -1,0 +1,41 @@
+.new_car {
+  gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.new_car > :nth-child(1) {
+  margin-top: 1rem;
+}
+
+.new_car_form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 13rem;
+}
+
+.new_car_form_fields {
+  gap:5rem;
+  display: flex;
+}
+
+.actions {
+  gap:3rem;
+  display:flex;
+  justify-content: center;
+}
+
+.error {
+  font-weight: bold;
+  color:orangered;
+  height: 5rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.spinner {
+  position:absolute;
+  top:50%;
+  left:50%;
+}

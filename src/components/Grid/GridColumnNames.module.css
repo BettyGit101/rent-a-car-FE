@@ -1,0 +1,15 @@
+.grid__columnNames {
+  display: grid;
+  margin: 3rem 3rem 0rem 3rem;
+  grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 1fr;
+  background-color:var(--color-blue-dark-3);
+}
+
+.title_text {
+  padding-left: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+  border: 2px solid black;
+}
